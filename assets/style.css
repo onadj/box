@@ -1,46 +1,94 @@
 
+body{
+    background-color: black;
+}
 
+.container-welcome{
+    background-color:indianred;
+    height:100vh;
+}
+
+.container-menubox{
+   background-color:goldenrod
+}
 
 .container-box1{
-     background:black;
-   
+    
 }
 
 .container-box2{
      background:grey;
+    
      
 }
 
 .container-box3{
      background:brown;
+   
      
 }
 
 .box1{
 width:100%;
-height:648px;
+height: 40vh;
 background-color:blue;
 }
 
 .box2{
 width:100%;
-height:400px;
+height: 40vh;
 background-color:green;
+}
+
+
+.box3{
+width:100%;
+height: 40vh;
+background-color:burlywood;
+}
+
+.box4{
+width:100%;
+height: 40vh;
+background-color:yellowgreen;
+}
+
+.box5{
+width:100%;
+height: 40vh;
+background-color:lightcoral;
+}
+.box6{
+width:100%;
+height: 40vh;
+background-color:goldenrod;
 }
 
 
 .box6{
 width:100%;
-height:224px;
-background-color:burlywood;
+height: 40vh;
+background-color:goldenrod;
 }
 
 .box7{
 width:100%;
-height:224px;
-background-color:blue;
+height: 40vh;
+background-color:rgb(218, 32, 178);
 }
 
+.box8{
+width:100%;
+height: 40vh;
+background-color:rgb(247, 116, 116);
+}
+
+
+.box9{
+width:100%;
+height: 40vh;
+background-color:rgb(145, 223, 138);
+}
 
 
 

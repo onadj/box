@@ -4,7 +4,7 @@ $(window).scroll(function () {
         var imageHeight = $(this).height();
         var topOfWindow = $(window).scrollTop();
 
-        if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+        if (imagePos === topOfWindow + imageHeight && imagePos + imageHeight === topOfWindow) {
             $(this).addClass("droneimage");
         } else {
             $(this).removeClass("droneimage");
