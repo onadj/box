@@ -21,19 +21,11 @@
     <link href="assets/style.css" rel="stylesheet" type="text/css" />
    <title>Drone Review</title>
   </head>
-  
+
   <body>
   
 <!--NavBar-->
-
-
-
-
-
-
-
-
-<nav class="navbar navbar-expand-sm navbar-light bg-light font-weight-bold">
+<nav class="navbar navbar-expand-sm">
 		<a class="navbar-brand" href="index.html">  </a>
 		<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -50,94 +42,206 @@
 					<li class="nav-item">
 						<a class="nav-link" href="{{url_for('add_review')}}">Add Drone Review</a>
 					</li>
-			
-					
 			</ul>
 		</div>
 	</div>
 </nav>
-
 <!--endNavbar-->
 
 <!--welcome-->
 <div class="container-fluid container-welcome">
  <div class="row">
- <div class="col text-center"><h1>Welcome</h1></div>
- </div>
- 
-
- <div class="row">
- <div class="col-12 text-center">
-<h1>video</h1>
+ <div class="col">
+  <video class="embed-responsive embed-responsive-16by9" autoplay muted loop >
+  <source src="assets/media/video/dronevideo.mp4" type="video/mp4">
+</video>
+<h1 class="welcometext textanimation text-danger text-center ">drones_reviews</h1>
  </div>
  </div>
 </div>
- 
-
+<hr>
 <!--endwelcome-->
 
-
-
-<!--menubox-->
-
-<div class="container-fluid container-menubox">
+<!--intro-->
+<div class="container container-intro text-center">
  <div class="row">
- <div class="col text-center"><h1>Top drones in 2020</h1>
+ <div class="col">
+ <h6> welcome to the page where you can find the best drones in 2020,<br> you can find reviews,<br> you can also add your review<br> or send drones by e-mail that you want to see on this page</h6>
+ </div>
+ </div>
+</div>
+<hr>
+<!--end intro-->
+
+
+<!--menubox 9 drones-->
+
+<div class="container-fluid container-menubox-9-drones">
+ <div class="row">
+ <div class="col text-center"><h2>top drones in 2020</h2>
  </div>
  </div>
 
 <div class="row">
      <div class="col-md-4 text-center p-3">
-          <div class="box1"><h1>box1 drone</h1></div>
+          <div class="box1 shadow-sm bg-white rounded"><h3>DJI Mavic Air 2</h3><a href="#DJI Mavic Air 2"><img src="https://i.imgur.com/XEXUXTz.jpg" class="img-fluid mr-3" height="400" width="500" ></a></div>
      </div>
 
      <div class="col-md-4 text-center p-3">
-          <div class="box2"><h1>box2 drone</h1></div>
+          <div class="box2 shadow-sm bg-white rounded"><h3>DJI Mavic 2 Pro</h3>
+      <a href="#DJI Mavic 2 Pro"><img src="https://i.imgur.com/bJJxnx3.jpg" class="img-fluid mr-3" height="400" width="500"></a></div>
      </div>
 
      <div class="col-md-4 text-center p-3">
-          <div class="box3"><h1>box3 drone</h1></div>
+          <div class="box3 shadow-sm bg-white rounded"><h3>DJI Mavic Mini</h3>
+      <a href="#DJI Mavic Mini"><img src="https://i.imgur.com/j04Jk2G.jpg" class="img-fluid mr-3" height="400" width="500"></a></div>
      </div>
    
 </div>    
   <div class="row">
      <div class="col-md-4 text-center p-3">
-          <div class="box4"><h1>box4 drone</h1></div>
+          <div class="box4 shadow-sm bg-white rounded"><h3>DJI Mavic 2 Zoom</h3>
+        <a href="#DJI Mavic 2 Zoom"><img src="https://i.imgur.com/bJJxnx3.jpg" class="img-fluid mr-3" height="400" width="500"></a></div>
      </div>
 
      <div class="col-md-4 text-center p-3">
-          <div class="box5"><h1 class="p-4">box5 drone</h1>
-          </div>
+          <div class="box5 shadow-sm bg-white rounded"><h3>DJI Phantom 4</h3>
+        <a href="#DJI Phantom 4"><img src="https://i.imgur.com/81rE2md.jpg" class="img-fluid mr-3" height="400" width="500"></a></div>
      </div>
 
      <div class="col-md-4 text-center p-3">
-          <div class="box6"><h1>box6 drone</h1></div>
+          <div class="box6 shadow-sm bg-white rounded"> <h3>Parrot Anafi</h3>
+        <a href="#Parrot Anafi"><img src="https://i.imgur.com/OPoA08K.jpg" class="img-fluid mr-3" height="400" width="200"></a></div>
      </div>
     
 </div>
 
 <div class="row">
      <div class="col-md-4 text-center p-3">
-          <div class="box7"><h1>box7 drone</h1></div>
+          <div class="box7 shadow-sm bg-white rounded"><h3>Parrot Bebop 2</h3>
+          <a href="#Parrot Bebop 2"><img src="https://i.imgur.com/5LDdFVg.jpg" class="img-fluid mr-3" height="200" width="200"></a></div>
      </div>
 
      <div class="col-md-4 text-center p-3">
-          <div class="box8"><h1>box 8 drone</h1>
+          <div class="box8 shadow-sm bg-white rounded"><h3>DJI Mavic Pro</h3>
+          <a href="#DJI Mavic Pro"><img src="https://i.imgur.com/9tQDVux.jpg" class="img-fluid mr-3" height="200" width="200"></a></div>
+     </div>
+
+     <div class="col-md-4 text-center p-3">
+          <div class="box9 shadow-sm bg-white rounded"><h3>DJI Inspire 2</h3>
+          <a href="#DJI Inspire 2"><img src="https://i.imgur.com/bjvTqew.jpg" class="img-fluid mr-3" height="200" width="200"></a></div>
+     </div>
+</div>
+</div>
+<hr>
+
+<!--end menubox 9 drones-->
+
+<!--Description Specifications Buy DJI Mavic Air 2-->
+
+<div class="container-fluid container-box1">
+ <div class="row">
+ <div class="col text-center"> <h1><a id="DJI Mavic Air 2">DJI Mavic Air 2</a></h1>
+ </div>
+ </div>
+
+<div class="row">
+     <div class="col-md-4 text-center">
+          <div class="box1"><img
+          src="https://i.imgur.com/XEXUXTz.jpg"
+         class="img-fluid"
+          
+        /></div>
+     </div>
+
+
+
+     <div class="col-md-4 text-center">
+          <div class="box2 p-4"><i class="fas fa-cogs fa-3x" style="color:red"></i>
+        <br>
+         <br>
+         <p class="text-white">
+          <i class="fas fa-weight-hanging" style="color:white"></i> Weight: 570g <br><br> <i class="fas fa-gamepad" style="color:white"></i> Controller: Yes <br><br> <i class="fas fa-camera" style="color:white"></i> Camera resolution: 12MP <br><br> <i class="fas fa-battery-three-quarters" style="color:white"></i> Battery size:
+          3,950 mAh <br><br> <i class="fas fa-route" style="color:white"></i> Range: 10km
+        </p>
+        </div>
+     </div>
+
+     <div class="col-md-4 text-center">
+          <div class="box3"><i class="fas fa-video fa-3x" style="color:red"></i>
+          <br>
+          <div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mQ92VJpNDVI" allowfullscreen></iframe>
+</div>
+         </div>
+
+          
+          </div>
+     </div>
+   
+</div>    
+  <div class="row">
+     <div class="col-md-4 text-center">
+          <div class="box4"><i class="fas fa-shopping-cart fa-3x" style="color:red"></i>
+          <br>
+          <br>
+          <p class="text-white">
+          Where To Buy?</p>
+          <br>
+          
+             <button type="button" class="btn btn-light">
+          <a
+            href="https://www.banggood.com/DJI-Mavic-Air-2-10KM-1080P-FPV-with-4K-60fps-Camera-3-axis-Gimbal-8K-Hyperlapse-34mins-Flight-Time-FocusTrack-RC-Drone-Quadcopter-p-1671491.html?utm_source=google&utm_medium=cpc_ods&utm_campaign=arvin-cam-sds-view-telscope-content-pc&utm_content=arvin&gclid=Cj0KCQjwgo_5BRDuARIsADDEntQj-6eVv0340XhAi_G0dBsMcvPU8BaxuVCEz73pAR_fsKNt3Xg4gocaAkuKEALw_wcB&ID=6289018&cur_warehouse=CN"
+            target="_blank">
+            Buy </a>
+
+          </button>
+            </div>
+          </div>
+     
+
+
+     <div class="col-md-4 text-center">
+          <div class="box5">
+
+          <i class="far fa-edit fa-3x" style="color:red"></i>
+<br>
+<br>
+   <button type="button" class="btn btn-light">
+          <a href=""
+            >
+            Read Reviews</a>
+          </button>
+
+<br>
+<br>
+   <button type="button" class="btn btn-light">
+          <a href=""
+            >
+            Add Review </a>
+          </button>
           </div>
      </div>
 
-     <div class="col-md-4 text-center p-3">
-          <div class="box9"><h1>box9 drone</h1></div>
+     <div class="col-md-4 text-center">
+          <div class="box6"><i class="fas fa-arrow-circle-up fa-3x" style="color:red"></i>
+          <br>
+
+          <br>
+<br>
+   <button type="button" class="btn btn-light">
+          <a href=""
+            >
+            Go To The Drones</a>
+          </button>
+          </div>
      </div>
     
 </div>
+<!--Description Specifications Buy DJI Mavic Air 2-->
 
-</div>
 
-<!--end menubox-->
-
-<!--Containerbox1-->
-
+<!--Containerbox2-->
 <div class="container-fluid container-box1">
  <div class="row">
  <div class="col text-center"><h1>Text</h1>
@@ -146,115 +250,39 @@
 
 <div class="row">
      <div class="col-md-4 text-center p-3">
-          <div class="box1"><h1>box1 drone</h1></div>
+          <div class="box1"><h1>box1 image</h1></div>
      </div>
 
      <div class="col-md-4 text-center p-3">
-          <div class="box2"><h1>box2 drone</h1></div>
+          <div class="box2"><h1>box2 specification</h1></div>
      </div>
 
      <div class="col-md-4 text-center p-3">
-          <div class="box3"><h1>box3 drone</h1></div>
+          <div class="box3"><h1>box3 about</h1></div>
      </div>
    
 </div>    
   <div class="row">
      <div class="col-md-4 text-center p-3">
-          <div class="box4"><h1>box4 drone</h1></div>
+          <div class="box4"><h1>box4 where to buy</h1></div>
      </div>
 
      <div class="col-md-4 text-center p-3">
-          <div class="box5"><h1 class="p-4">box5 drone</h1>
+          <div class="box5"><h1 class="p-4">box5 add review and read reviews</h1>
           </div>
      </div>
 
      <div class="col-md-4 text-center p-3">
-          <div class="box6"><h1>box6 drone</h1></div>
+          <div class="box6"><h1>box6 top</h1></div>
      </div>
     
 </div>
-
-<div class="row">
-     <div class="col-md-4 text-center p-3">
-          <div class="box7"><h1>box7 drone</h1></div>
-     </div>
-
-     <div class="col-md-4 text-center p-3">
-          <div class="box8"><h1>box 8 drone</h1>
-          </div>
-     </div>
-
-     <div class="col-md-4 text-center p-3">
-          <div class="box9"><h1>box9 drone</h1></div>
-     </div>
-    
-</div>
-
-</div>
-<!--endContainerbox1-->
-
-
-<!--Containerbox2-->
-
-<div class="container-fluid container-box2">
- <div class="row">
- <div class="col text-center"><h1>Text</h1>
- </div>
- </div>
-
-<div class="row">
-     <div class="col-md-4 text-center p-3">
-          <div class="box1"><h1>box1 drone</h1></div>
-     </div>
-
-     <div class="col-md-4 text-center p-3">
-          <div class="box2"><h1>box2 drone</h1></div>
-     </div>
-
-     <div class="col-md-4 text-center p-3">
-          <div class="box3"><h1>box3 drone</h1></div>
-     </div>
-   
-</div>    
-  <div class="row">
-     <div class="col-md-4 text-center p-3">
-          <div class="box4"><h1>box4 drone</h1></div>
-     </div>
-
-     <div class="col-md-4 text-center p-3">
-          <div class="box5"><h1 class="p-4">box5 drone</h1>
-          </div>
-     </div>
-
-     <div class="col-md-4 text-center p-3">
-          <div class="box6"><h1>box6 drone</h1></div>
-     </div>
-    
-</div>
-
-<div class="row">
-     <div class="col-md-4 text-center p-3">
-          <div class="box7"><h1>box7 drone</h1></div>
-     </div>
-
-     <div class="col-md-4 text-center p-3">
-          <div class="box8"><h1>box 8 drone</h1>
-          </div>
-     </div>
-
-     <div class="col-md-4 text-center p-3">
-          <div class="box9"><h1>box9 drone</h1></div>
-     </div>
-    
-</div>
-
 </div>
 <!--endContainerbox2-->
 
 
 <!--Containerbox3-->
-
-<div class="container-fluid container-box3">
+<div class="container-fluid container-box1">
  <div class="row">
  <div class="col text-center"><h1>Text</h1>
  </div>
@@ -262,50 +290,33 @@
 
 <div class="row">
      <div class="col-md-4 text-center p-3">
-          <div class="box1"><h1>box1 drone</h1></div>
+          <div class="box1"><h1>box1 image</h1></div>
      </div>
 
      <div class="col-md-4 text-center p-3">
-          <div class="box2"><h1>box2 drone</h1></div>
+          <div class="box2"><h1>box2 specification</h1></div>
      </div>
 
      <div class="col-md-4 text-center p-3">
-          <div class="box3"><h1>box3 drone</h1></div>
+          <div class="box3"><h1>box3 about</h1></div>
      </div>
    
 </div>    
   <div class="row">
      <div class="col-md-4 text-center p-3">
-          <div class="box4"><h1>box4 drone</h1></div>
+          <div class="box4"><h1>box4 where to buy</h1></div>
      </div>
 
      <div class="col-md-4 text-center p-3">
-          <div class="box5"><h1 class="p-4">box5 drone</h1>
+          <div class="box5"><h1 class="p-4">box5 add review and read reviews</h1>
           </div>
      </div>
 
      <div class="col-md-4 text-center p-3">
-          <div class="box6"><h1>box6 drone</h1></div>
+          <div class="box6"><h1>box6 top</h1></div>
      </div>
     
 </div>
-
-<div class="row">
-     <div class="col-md-4 text-center p-3">
-          <div class="box7"><h1>box7 drone</h1></div>
-     </div>
-
-     <div class="col-md-4 text-center p-3">
-          <div class="box8"><h1>box 8 drone</h1>
-          </div>
-     </div>
-
-     <div class="col-md-4 text-center p-3">
-          <div class="box9"><h1>box9 drone</h1></div>
-     </div>
-    
-</div>
-
 </div>
 <!--endContainerbox3-->
 
@@ -323,11 +334,9 @@
     <!-- Third party plugin JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
  
-
-
-
-
-<script src="assets/main.js"></script>
-
+ <!--My Scripts---->
+    <script src="assets/main.js"></script>
+    <script src="assets/splitletter.js"></script>
+    <script src="assets/readreview.js"></script>
   </body>
 </html>
