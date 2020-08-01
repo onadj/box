@@ -10,6 +10,11 @@ body{
 .navbar{
     background-color: black;
 }
+.custom-toggler.navbar-toggler{
+  border-color: red;
+
+}
+
 /*end navbar*/
 
 
@@ -30,7 +35,7 @@ a:hover {
 }
 
 a:active {
-  color:red;
+  color:white;
    text-decoration: none;
 }
 /*end hoover links*/
@@ -40,19 +45,14 @@ a:active {
 h4, h5{
     color:red;
 }
-h1, h2, h6{
+h1, h2 {
     color:white;
 }
 
-h3{
+h3, h6{
     color:black;
 }
-/*end h4*/
-
-
-.container-intro{
-
-}
+/*end h colors*/
 
 
 .container-welcome{
@@ -96,85 +96,232 @@ hr{ display: block;
 
 /*end welcome text*/
 
-.container-menubox-9-drones{
-   background-color:black;
-}
 
-.container-box1{
+
+/*Top 9 drones in 2020*/
+.menubox1{
+    animation-name:menubox1;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
+    opacity:0;
+    transition: transform .2s;
     
 }
 
-.container-box2{
-     background:grey;
+
+@keyframes menubox1{
+    0% {opacity:0 }
+    100%{opacity:1}
+}
+
+.menubox1:hover {
+  transform: scale(1.1); 
+  color: gray;
+}
+
+.menubox2{
+    animation-delay: .5s;
+    animation-name:menubox2;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
+    opacity:0;
+    transition: transform .2s;
+}
+
+.menubox2:hover {
+  transform: scale(1.1); 
+  color: gray;
+}
+
+@keyframes menubox2{
+    0% {opacity:0 }
+    100%{opacity:1}
+}
+
+.menubox3{
+    animation-delay: 1s;
+    animation-name:menubox3;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
+    opacity:0;
+    transition: transform .2s;
+}
+
+.menubox3:hover {
+  transform: scale(1.1); 
+  color: gray;
+}
+
+@keyframes menubox3{
+    0% {opacity:0 }
+    100%{opacity:1}
+}
+
+.menubox4{
+    animation-delay: 1.5s;
+    animation-name:menubox4;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
+    opacity:0;
+    transition: transform .2s;
+}
+
+@keyframes menubox4{
+    0% {opacity:0 }
+    100%{opacity:1}
+}
+
+.menubox4:hover {
+  transform: scale(1.1); 
+  color: gray;
+}
+
+.menubox5{
+    animation-delay: 2s;
+    animation-name:menubox5;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
+    opacity:0;
+    transition: transform .2s;
+}
+
+@keyframes menubox5{
+    0% {opacity:0 }
+    100%{opacity:1}
+}
+
+.menubox5:hover {
+  transform: scale(1.1); 
+  color: gray;
+}
+
+
+
+.menubox6{
+    animation-delay: 2.5s;
+    animation-name:menubox6;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
+    opacity:0;
+    transition: transform .2s;
     
-     
 }
 
-.container-box3{
-     background:brown;
-   
-     
+@keyframes menubox6{
+    0% {opacity:0 }
+    100%{opacity:1}
 }
 
+.menubox6:hover {
+  transform: scale(1.1); 
+  color: gray;
+}
+
+
+
+.menubox7{
+    animation-delay: 3s;
+    animation-name:menubox7;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
+    opacity:0;
+    transition: transform .2s;
+}
+@keyframes menubox7{
+    0% {opacity:0 }
+    100%{opacity:1}
+}
+
+.menubox7:hover {
+  transform: scale(1.1); 
+  color: gray;
+}
+
+.menubox8{
+    animation-delay: 3.5s;
+    animation-name:menubox8;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
+    opacity:0;
+    transition: transform .2s;
+}
+
+@keyframes menubox8{
+    0% {opacity:0 }
+    100%{opacity:1}
+}
+
+.menubox8:hover {
+  transform: scale(1.1); 
+  color: gray;
+}
+
+
+.menubox9{
+    animation-delay: 4s;
+    animation-name:menubox9;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:2s;
+    opacity:0;
+    transition: transform .2s;
+}
+
+@keyframes menubox9{
+    0% {opacity:0 }
+    100%{opacity:1}
+}
+
+.menubox9:hover {
+  transform: scale(1.1); 
+  color: gray;
+}
+
+
+/* End Top 9 drones in 2020*/
+
+/* container with image, specification, video, where to buy, about and go to the drones*/
 .box1{
-width:100%;
-height: 50vh;
-background-color:black;
+     border: 1px solid grey;
 }
 
 .box2{
-width:100%;
-height: 50vh;
-background-color:black;
+     border: 1px solid grey;
 }
 
-
 .box3{
-width:100%;
-height: 50vh;
-background-color:black;
+     border: 1px solid grey;
 }
 
 .box4{
-width:100%;
-height: 50vh;
-background-color:black;
+     border: 1px solid grey;
 }
 
 .box5{
-width:100%;
-height: 50vh;
-background-color:black;
+     border: 1px solid grey;
 }
+
 .box6{
-width:100%;
-height: 50vh;
-background-color:black;
+     border: 1px solid grey;
 }
-
-
-
-
-.box7{
-width:100%;
-height: 40vh;
-background-color:rgb(218, 32, 178);
-}
-
-.box8{
-width:100%;
-height: 40vh;
-background-color:rgb(247, 116, 116);
-}
-
-
-.box9{
-width:100%;
-height: 40vh;
-background-color:rgb(145, 223, 138);
-}
-
-
+/*end container with image, specification, video, where to buy, about and go to the drones*/
 
 .droneimage{
     width:100%;
