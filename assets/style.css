@@ -324,14 +324,13 @@ hr{ display: block;
 }
 
 .box7{
+   border: 1px solid white;
    
-   width:100%;
-    height:20vh;
 }
 
 .box8{
-     width:100%;
-    height:20vh;
+    border: 1px solid white;
+    
 }
 /*end container with image, specification, video, where to buy, about and go to the drones*/
 
