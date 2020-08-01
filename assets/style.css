@@ -2,6 +2,7 @@
 
 body{
     margin:0;
+    padding:0;
     background-color: black;
     font-family: 'Montserrat', sans-serif; 
 }
@@ -320,6 +321,17 @@ hr{ display: block;
 
 .box6{
      border: 1px solid grey;
+}
+
+.box7{
+   
+   width:100%;
+    height:20vh;
+}
+
+.box8{
+     width:100%;
+    height:20vh;
 }
 /*end container with image, specification, video, where to buy, about and go to the drones*/
 
