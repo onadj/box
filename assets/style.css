@@ -15,7 +15,6 @@ body{
   border-color: red;
 
 }
-
 /*end navbar*/
 
 
@@ -295,7 +294,6 @@ hr{ display: block;
   color: gray;
 }
 
-
 /* End Top 9 drones in 2020*/
 
 /* container with image, specification, video, where to buy, about and go to the drones*/
@@ -333,6 +331,12 @@ hr{ display: block;
     
 }
 /*end container with image, specification, video, where to buy, about and go to the drones*/
+
+/*container read reviews and add your review*/
+.container-read_and_addreview{
+    background-color:whitesmoke;
+}
+/*end container read reviews and add your review*/
 
 .droneimage{
     width:100%;
