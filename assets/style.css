@@ -303,8 +303,13 @@ hr{ display: block;
 /* End Top 9 drones in 2020*/
 
 /* container with image, specification, video, where to buy, about and go to the drones*/
+.container-droneimage{
+    height:100vh;
+}
+
 .box1{
      border: 1px solid grey;
+     
 }
 
 .box2{
@@ -344,56 +349,19 @@ hr{ display: block;
 }
 /*end container read reviews and add your review*/
 
-.droneimage{
+
+/*animations*/
+
+.move-left-to-right{
     width:100%;
     position:relative;
-    animation:droneimage;
-    animation-duration:1s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes droneimage{
-    0% {left:-1000px}
-    100%{left:0px}
-   }
-
-
-   
-.specification{
-    width:100%;
-    position:relative;
-    animation:specification;
+    animation-name:move-left-to-right;
     animation-duration:2s;
     animation-fill-mode: forwards;
   }
-  @keyframes specification{
-    0% {left:1000px}
-    100%{left:0px}
+  @keyframes move-left-to-right{
+    0% {right:1000px}
+    100%{right:0px}
    }
 
-   .review{
-  width:100%;
-    position:relative;
-    animation:review;
-    animation-duration:3s;
-    animation-fill-mode: forwards;
-  }
-
-  @keyframes review{
-    0% {left:1000px}
-    100%{left:0px}
-   }
-
-     .wheretobuy{
-    width:100%;
-    position:relative;
-    animation:wheretobuy;
-    animation-duration:4s;
-    
-    animation-fill-mode: forwards;
-  }
-  
-  @keyframes wheretobuy{
-    0% {left:1000px}
-    100%{left:0}
-   }
+/*end animations*/
