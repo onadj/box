@@ -347,18 +347,21 @@ hr{ display: block;
 /*end container read reviews and add your review*/
 
 
-/*animations*/
+/*animations for images*/
 
-.move-left-to-right{
-    width:100%;
-    position:relative;
-    animation-name:move-left-to-right;
-    animation-duration:2s;
+.droneimageopacity{
+    animation-name:droneimageopacity;
+    animation-duration: 3s;
     animation-fill-mode: forwards;
+    transition-property: transform;
+    transition-duration:3s;
+    opacity:0;
+    transition: transform 3s;
   }
-  @keyframes move-left-to-right{
-    0% {right:1000px}
-    100%{right:0px}
+  @keyframes droneimageopacity{
+    0% {opacity:0;}
+    100%{opacity:1;}
    }
+
 
 /*end animations*/

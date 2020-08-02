@@ -5,10 +5,13 @@ $(window).scroll(function () {
         var topOfWindow = $(window).scrollTop();
 
         if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
-            $(this).addClass("move-left-to-right");
+            $(this).addClass("droneimageopacity");
         } else {
-            $(this).removeClass("move-left-to-right");
+            $(this).removeClass("droneimageopacity");
             console.log(imageHeight)
         }
     });
 });
+
+
+
