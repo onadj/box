@@ -5,9 +5,9 @@ $(window).scroll(function () {
         var topOfWindow = $(window).scrollTop();
 
         if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
-            $(this).addClass(".move-left-to-right");
+            $(this).addClass("move-left-to-right");
         } else {
-            $(this).removeClass(".move-left-to-right");
+            $(this).removeClass("move-left-to-right");
             console.log(imageHeight)
         }
     });

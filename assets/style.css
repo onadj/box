@@ -303,9 +303,6 @@ hr{ display: block;
 /* End Top 9 drones in 2020*/
 
 /* container with image, specification, video, where to buy, about and go to the drones*/
-.container-droneimage{
-    height:100vh;
-}
 
 .box1{
      border: 1px solid grey;
